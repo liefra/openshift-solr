@@ -1,5 +1,4 @@
-FROM solr:6.4
-MAINTAINER  Jason Dudash "jason.dudash@gmail.com"
+FROM solr:6.5.1
 
 USER root
 ENV STI_SCRIPTS_PATH=/usr/libexec/s2i
