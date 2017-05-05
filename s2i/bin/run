@@ -10,4 +10,5 @@ CORE_NAME=autocore
 
 # Use scripts from the official docker-solr image
 # https://github.com/docker-solr/docker-solr/tree/master/scripts
-solr-create -c $CORE_NAME
+# solr-create -c $CORE_NAME
+solr-demo
